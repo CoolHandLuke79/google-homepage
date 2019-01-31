@@ -1,2 +1,1 @@
-From the Odin Project's Curriculum - Web Development 101, Project: HTML/CSS
-By Luke Harris
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)

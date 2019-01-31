@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+  color: #222;
+  font-size: small;
+}
+
+.content {
+  min-height: calc(100vh - 60px);
+}
+nav  {
+ padding: 10px;  
+}
+
+nav a, footer a{
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;     
+}
+
+.right {
+  float: right;
+  padding-right:20px;
+ }
+
+.left {
+  float: left;
+}
+
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: pointer;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+min-width: 54px;
+padding: 5px 24px;
+text-align: center;
+}
+
+.button:hover {
+  border: 1px solid #D3D3D3;
+  color: #000;
+}
+
+.search {
+  width: 500px;
+  
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid #D3D3D3;
+  font-size: 16px;
+  box-shadow:  0 3px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.apps {
+ background-image: url('http://www.thecanadiangame.com/odinproject/images/google-icons.png');
+ vertical-align: middle;
+ height: 30px;
+ width: 30px;
+ cursor: pointer;
+ background-size: 528px 68px;
+ background-position: -132px -38px;
+ opacity:.5;
+ padding: 0;
+  
+}
+
+.apps:hover, .settings:hover, .icon:hover {
+  opacity: 1;
+  text-decoration:none;
+ }
+
+
+.settings {
+ background-image: url('http://www.thecanadiangame.com/odinproject/images/google-icons.png');
+ vertical-align: middle;
+ height: 30px;
+ width: 20px;
+ cursor: pointer;
+ background-size: 528px 68px;
+ opacity:.5;
+ padding: 0;
+}
+
+.icon {
+  width:30px;
+  line-height:30px;
+  background-color:blue;
+  border-radius:15px;
+  text-align: center;
+  padding: 0px;
+  margin-left:10px;
+  vertical-align: middle;
+  color:#fff;
+  font-weight: bold;
+}
+
+.main {
+  clear:both;
+  text-align: center;
+  padding:150px;
+  
+}
+
+footer{
+    background-color: #f2f2f2;
+  height:60px;
+      
+ }
+
+footer p {
+  padding: 5px 0px;
+  margin: 0;
+  
+}
+.country {
+  border: solid #D3D3D3;
+  border-width: 1px 0px;
+  padding: 5px 13px;
+  font-size:15px;
+  color: #000;
+  opacity: 0.55;
+ 
+}
+
+
+
+
+
+
+
